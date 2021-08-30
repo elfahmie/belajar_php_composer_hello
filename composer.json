@@ -1,0 +1,20 @@
+{
+    "name": "belajarprogramming/belajar_php_composer_hello",
+    "description": "Belajar php composer hello",
+    "type": "library",
+    "authors": [
+        {
+            "name": "fahmie a",
+            "email": "fahmie@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "belajarprogramming\\belajar\\": "src/"
+        }
+    }
+}
